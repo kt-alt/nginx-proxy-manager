@@ -23,11 +23,11 @@ You will need to configure the Wordpress & Site Address (in wordpress's General 
 ## Extra Step for Pihole
 
 If you want users to be able to just point to http://mypilehole_dnsname (no /admin), you will need to define a Custom Location in the Proxy Host as follows:
-- location:  '/'
-- scheme:  'http'
-- forward hostname/ip:  'pihole_ip'
-- forward port: 'pihole_port'
-- "gear button":  'rewrite ^/$ /admin break;'
+- location:  `/`
+- scheme:  `http`
+- forward hostname/ip:  `pihole_ip`
+- forward port: `pihole_port`
+- "gear button":  `rewrite ^/$ /admin break;`
 
 
 ## Manual Configuration of Nginx as a Reverse Proxy
