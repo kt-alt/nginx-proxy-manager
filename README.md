@@ -24,7 +24,7 @@ However, if you've set up your machine and domain names correctly, this shouldn'
 
 ## Custom Location 
 
-If you users to be forwarded a specific path, you need to define a Custom Location in the Proxy Host.  For example, if you want users to be able to just point to http://mypilehole_dnsname (no /admin), create Custom Location in the Proxy Host as follows:
+If you want users to be forwarded a specific path, you need to define a Custom Location in the Proxy Host.  For example, if you want users to be able to just point to http://mypilehole_dnsname (no /admin), create Custom Location in the Proxy Host as follows:
 
 - location:  `/`
 - scheme:  `http`
