@@ -32,7 +32,7 @@ If you want users to be forwarded a specific path, you need to define a Custom L
 - forward port: `pihole_port`
 - "gear button":  `rewrite ^/$ /admin break;`
 
-In the above location represents the originating path "/", pihole is the destination machine, and "gear button" is where you would put the code that would normally go into the nginx.conf's server {...}.
+In the above location represents the originating path "/", pihole is the destination machine, and "gear button" is where you would put the code that would normally go into the nginx.conf's location {...}.
 
 ## Manual Configuration of Nginx as a Reverse Proxy
 
